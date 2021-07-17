@@ -59,7 +59,7 @@ resource "aws_subnet" "subnet4" {
 }
 
 # aws_vpc.vpcdemo:
-resource "aws_vpc" "vpcdemo" {
+resource "aws_vpc" "vpcdemo1" {
     assign_generated_ipv6_cidr_block = false
     cidr_block                       = "192.168.0.0/23"
     enable_classiclink               = false
